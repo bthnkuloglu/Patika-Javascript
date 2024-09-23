@@ -1,0 +1,11 @@
+.body {
+  background-color: black;
+  color: white;
+}
+.container {
+   width: 80%;
+   margin: 0 auto;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+}
