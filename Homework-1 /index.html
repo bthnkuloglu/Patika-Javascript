@@ -5,17 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript Homework</title>
-    
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+<body class="body">
     <h1 id="name"></h1>
     <p id="time"></p>
+
+    <div class="container">
+        Merhaba, <strong><span id="myName"></span></strong>! Hoş geldin!
+        <div id="myClock" onload="showTime()"></div>
+    </div>
 </body>
-<div>
-    Merhaba, <strong><span id="myName"></span></strong>! Hoş geldin!
-</div>
-<div id="myClock" onload="showTime()"></div>
 <script src="script.js"></script>
 
 
